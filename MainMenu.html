@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <title>
+            Salary Calculator
+        </title>
+        <link rel="stylesheet" type="text/css" href="Style.css">
+    </head>
+    <body>
+        <div class="mainheading">
+            Enter The Employee Details
+        </div>
+       
+        <div class="Main">
+                
+           <div style="width:40%;float:inherit">
+              <div style=" text-align:right;
+              margin-top: 11px;
+              font-family: Arial, Helvetica, sans-serif;
+              font-size: 20px;">Name:</div>
+              
+              <div style=" text-align:right;
+              margin-top: 11px;
+              font-family: Arial, Helvetica, sans-serif;
+              font-size: 20px;">Department:</div>
+            
+              <div style=" text-align:right;
+              margin-top: 10px;
+              font-family: Arial, Helvetica, sans-serif;
+              font-size: 20px;">Basic Salary:</div>
+              
+              <div style=" text-align:right;
+              margin-top: 15px;
+              font-family: Arial, Helvetica, sans-serif;
+              font-size: 20px;">DateOfJoining:</div>
+
+           </div>
+           <div style="float:inherit;text-align:center;width:60%">
+               
+              <form method="POST" action="Slip.php">
+
+                  
+                  <input class="button" name="Name" type="text" size="20 "/>
+                                    
+                  <input class="button" name="Dep" type="text" size="20" />
+                  <br>
+                  
+                  <input class="button" name="Sal" type="number" size="20" />
+                 <br>
+                  <input class="button" name="Doj" type="date" size="20"/>
+                  <br>
+                  <input class="button" type="submit" value="Submit" />
+                  
+              </form>
+           </div>
+        </div>
+    </body>
+</html>

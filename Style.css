@@ -1,0 +1,91 @@
+.Main
+{
+    background-color: rgba(235, 113, 92, 0.911);
+    margin-left:500px;
+    border:2px solid rgba(255, 44, 86, 0.568);
+    
+    width: 600px;
+    margin-top: 10px;   
+    float: left;
+    display: flex;
+    border-style: dashed;
+    padding:2px;
+}
+
+
+
+.button{
+    
+    margin-top: 9px;
+    
+}
+.mainheading
+{
+    margin-left: 500px;
+    margin-top: 200px;
+    border:2px solid rgba(87, 0, 17, 0.568);
+    width:600px;
+    padding: 2px;
+    text-decoration-line: underline;
+    font-style: oblique;
+    font-size: 20px;
+    font-family: cursive;
+    text-align: center;
+    background-color: rgb(226, 77, 77);
+   
+}
+.heading
+{
+    margin-left: 500px;
+    margin-top: 200px;
+    border:2px solid rgba(87, 0, 17, 0.568);
+    width:600px;
+    padding: 2px;
+    text-decoration-line: underline;
+    font-style: oblique;
+    font-size: 20px;
+    font-family: cursive;
+    text-align: center;
+    background-color: rgb(226, 77, 77);
+   
+}
+.deductions
+{
+    float:inherit;
+    text-align:center;
+    width:50%;
+   
+    text-align:center;
+    background-color:rgba(241, 80, 80, 0.384)
+}
+#dateandname
+{
+    
+    margin-left: 500px;
+    border:2px solid rgba(87, 0, 17, 0.568);
+    width:600px;
+    padding: 2px;
+    margin-top: 10px;
+    
+    font-style: oblique;
+    font-size: 20px;
+    font-family: cursive;
+    text-align: center;
+    background-color: rgb(226, 77, 77);
+   
+}
+#total
+{
+
+    margin-left: 500px;
+    border:2px solid rgba(87, 0, 17, 0.568);
+    width:600px;
+    padding: 2px;
+    
+    font-style: oblique;
+    font-size: 20px;
+    font-family: cursive;
+    text-align: center;
+    background-color: rgb(226, 77, 77);
+   
+}
